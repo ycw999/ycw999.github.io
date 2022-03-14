@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="我的第一篇博客, 颜先森工作室">
-    <meta name="description" content="#简介这是我的第一篇hexo博客文章
+    <meta name="description" content="#简介这是我的第一篇hexo博客文章#这是一个图片&amp;#x2F;img&amp;#x2F;test.jpg
 ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -472,7 +472,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    14
+                    25
                 </div>
                 
 
@@ -489,7 +489,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>#简介<br>这是我的第一篇hexo博客文章</p>
+                <p>#简介<br>这是我的第一篇hexo博客文章<br>#这是一个图片<br>&#x2F;img&#x2F;test.jpg</p>
 
                 
             </div>
@@ -713,6 +713,33 @@
     
 
     
+        <style>
+    .mvaline-card {
+        margin: 1.5rem auto;
+    }
+
+    .mvaline-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+</style>
+
+<div class="card mvaline-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="mvcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/minivaline/MiniValine.js"></script>
+<script>
+    new MiniValine(Object.assign({"enable":true,"serverURL":"https://minivaline.your-domain.top"}, {
+	  el: '#mvcomments',
+    }));
+</script>
+
+    
 
     
 
@@ -725,18 +752,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">
+                <a href="/2022/03/14/post-%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="我的第一篇博客">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="post_我的第二篇博客">
                         
-                        <span class="card-title">我的第一篇博客</span>
+                        <span class="card-title">post_我的第二篇博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -746,9 +772,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-13
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-14
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -757,7 +783,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -768,13 +793,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/03/13/hello-world/">
+                <a href="/2020/01/14/5w2h-godweiyang/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="5W2H | 关于写博客的七点反思">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">5W2H | 关于写博客的七点反思</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -785,15 +810,27 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-14
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            颜朝伟
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                                    随笔
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1214,6 +1251,15 @@ $(function () {
     
 
     
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
+    
 
     <!-- 雪花特效 -->
      
@@ -1270,6 +1316,8 @@ $(function () {
 
     
 
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     
